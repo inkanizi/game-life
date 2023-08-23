@@ -1,0 +1,49 @@
+body {
+  background-color: #000000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  padding: 14px 14px;
+  background-color: #032000;
+  margin: 10px;
+  color: #d1ffcd;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #d1ffcd;
+  color: #000000;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#gridContainer {
+}
+.controls {
+  margin-top: 50px;
+  padding: 5px;
+}
+td {
+  width: 10px;
+  height: 10px;
+}
+td.dead {
+  transition: all 0.2s ease-out;
+  background-color: transparent;
+}
+
+td.live {
+  background-color: #15ff00;
+  transition: all 0.1s ease-in;
+}
+table {
+  background-color: #d1ffcd;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+  cursor: pointer;
+  box-shadow: 0px 0px 25px 5px #15ff00;
+}

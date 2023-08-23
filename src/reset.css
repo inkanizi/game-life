@@ -4,7 +4,9 @@
     margin: 0px;
     border: none;
   }
-  
+  body{
+    box-sizing: border-box;
+  }
   *,
   *::before,
   *::after {
